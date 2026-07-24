@@ -1,8 +1,26 @@
 aid: bizongo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bizongo.png
 name: Bizongo
-description: 'Bizongo is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: ecommerce. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Bizongo is a Mumbai-based B2B commerce and supply-chain platform founded in 2015 that
+  digitizes procurement, vendor management, and supply-chain financing for enterprises across India,
+  with a focus on packaging, raw materials, and made-to-order goods. It operates a SaaS-led vendor
+  digitization stack plus an embedded-finance offering, connecting large buyers with a network of
+  manufacturing partners. Bizongo is backed by Accel, Chiratae Ventures, B Capital, and others. It
+  was added to the API Evangelist network as a portfolio-lead stub; as of this enrichment pass Bizongo
+  publishes no public developer portal, API reference, OpenAPI definition, or /.well-known discovery
+  surface — third-party logistics integration is offered only through carrier aggregators such as
+  ClickPost, so most API-artifact scoring dimensions are not applicable.'
 url: https://raw.githubusercontent.com/api-evangelist/bizongo/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Ecommerce
+- B2B
+- Supply Chain
+- Procurement
+- Packaging
+- Embedded Finance
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.bizongo.com
+  url: https://www.bizongo.com
+- type: Blog
+  url: https://www.bizongo.com/blog
+- type: Support
+  url: https://www.bizongo.com/contact-us
+- type: TermsOfService
+  url: https://www.bizongo.com/terms-and-conditions
+- type: DomainSecurity
+  url: security/bizongo-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
